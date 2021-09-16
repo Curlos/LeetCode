@@ -3,9 +3,9 @@ class Solution:
         hashNums = {}
         
         for num in nums:
-            if num in hashNums:
+            if num not in hashNums:
+                hashNums[num] = num
+            else:
                 return True
-            
-            hashNums[num] = 1
         
         return False
