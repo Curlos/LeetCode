@@ -3,9 +3,11 @@ class Solution:
         hashNums = {}
         
         for i, num in enumerate(nums):
-            y = target - num
+            numToFind = target - num
             
-            if y in hashNums and hashNums[y] != i:
-                return [hashNums[y], i]
-            
+            if numToFind in hashNums:
+                return [hashNums[numToFind], i]
+        
             hashNums[num] = i
+        
+        return []
