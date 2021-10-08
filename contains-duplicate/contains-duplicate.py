@@ -3,9 +3,8 @@ class Solution:
         hashNums = {}
         
         for num in nums:
-            if num not in hashNums:
-                hashNums[num] = num
-            else:
+            if num in hashNums:
                 return True
+            hashNums[num] = 1
         
         return False
