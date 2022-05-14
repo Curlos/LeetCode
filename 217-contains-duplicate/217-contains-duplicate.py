@@ -1,12 +1,14 @@
-class Solution:
-    def containsDuplicate(self, nums: List[int]) -> bool:
-        nums.sort()
+class Solution(object):
+    def containsDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
+        hashNums = {}
         
-        for i in range(len(nums) - 1):
-            currNum = nums[i]
-            nextNum = nums[i + 1]
-            
-            if currNum == nextNum:
+        for num in nums:
+            if num in hashNums:
                 return True
-            
+            hashNums[num] = True
+        
         return False
