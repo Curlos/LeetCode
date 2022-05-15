@@ -4,13 +4,11 @@ class Solution(object):
         :type nums: List[int]
         :rtype: bool
         """
-        if (len(nums) < 2):
-            return False
+        hashNums = {}
         
-        nums.sort()
-        
-        for i in range(len(nums) - 1):
-            if nums[i] == nums[i + 1]:
+        for num in nums:
+            if num in hashNums:
                 return True
+            hashNums[num] = True
         
         return False
