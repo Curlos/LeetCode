@@ -8,18 +8,14 @@ class Solution(object):
         if len(s) != len(t):
             return False
         
-        hashAnagram = {}
+        s = ''.join(sorted(s))
+        t = ''.join(sorted(t))
         
-        for char in s:
-            if char in hashAnagram:
-                hashAnagram[char] += 1
-            else:
-                hashAnagram[char] = 1
+        print(s)
+        print(t)
         
-        for char in t:
-            if char not in hashAnagram or hashAnagram[char] <= 0:
+        for i in range(len(s)):
+            if s[i] != t[i]:
                 return False
-            hashAnagram[char] -= 1
         
         return True
-        
