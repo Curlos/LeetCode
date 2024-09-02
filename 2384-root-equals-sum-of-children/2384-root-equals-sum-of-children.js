@@ -10,10 +10,10 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var checkTree = function(root) {
+var checkTree = function (root) {
     const leftValue = root?.left?.val || 0
     const rightValue = root?.right?.val || 0
     const sumOfTheChildren = leftValue + rightValue
 
-    return root.val === sumOfTheChildren ? true : false
+    return root.val === sumOfTheChildren
 };
