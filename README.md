@@ -16,4 +16,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0009-palindrome-number](https://github.com/curlos/LeetCode/tree/master/0009-palindrome-number) |
 | [2383-add-two-integers](https://github.com/curlos/LeetCode/tree/master/2383-add-two-integers) |
+## String
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/curlos/LeetCode/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/curlos/LeetCode/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
