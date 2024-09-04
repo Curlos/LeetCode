@@ -17,11 +17,13 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/curlos/LeetCode/tree/master/0009-palindrome-number) |
+| [0412-fizz-buzz](https://github.com/curlos/LeetCode/tree/master/0412-fizz-buzz) |
 | [2383-add-two-integers](https://github.com/curlos/LeetCode/tree/master/2383-add-two-integers) |
 ## String
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/curlos/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0412-fizz-buzz](https://github.com/curlos/LeetCode/tree/master/0412-fizz-buzz) |
 ## Trie
 |  |
 | ------- |
@@ -42,4 +44,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1791-richest-customer-wealth](https://github.com/curlos/LeetCode/tree/master/1791-richest-customer-wealth) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/curlos/LeetCode/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
