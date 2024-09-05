@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0009-palindrome-number](https://github.com/curlos/LeetCode/tree/master/0009-palindrome-number) |
 | [0412-fizz-buzz](https://github.com/curlos/LeetCode/tree/master/0412-fizz-buzz) |
+| [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/curlos/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2383-add-two-integers](https://github.com/curlos/LeetCode/tree/master/2383-add-two-integers) |
 ## String
 |  |
@@ -48,4 +49,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0412-fizz-buzz](https://github.com/curlos/LeetCode/tree/master/0412-fizz-buzz) |
+## Bit Manipulation
+|  |
+| ------- |
+| [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/curlos/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 <!---LeetCode Topics End-->
