@@ -10,27 +10,28 @@
  * @return {ListNode}
  */
 var middleNode = function(head) {
-    let numOfNodes = 1
+    // Go through the whole linked list once to determine the number of nodes and keep track of this number.
     let currNode = head
+    let numOfNodes = 0
 
-    // We need to go to the end of the linked list. We'll know we're at the end of the linked list once the ".next" node is null or undefined.
-    // 1, 2, 3, 4, 5
-    while (currNode.next) {
-        numOfNodes += 1
+    while (currNode) {
+        numOfNodes++
         currNode = currNode.next
     }
 
-    const middleIndex = Math.floor(numOfNodes / 2)
+    // Then, using the total number of nodes, divide that by 2 and you should have the index of the middle node in the Linked List.
+    let middleIndex = Math.floor(numOfNodes / 2)
+
+    // Using this new "middle" index, reset the current node to the head so you're at the beginning and keep go through linked list again. Again, you'll be keeping track of the current index BUT with one new condition - If the current index === middle index, then that means that this current node, must be the middle node.
+    currNode = head
     let currIndex = 0
 
-    currNode = head
+    while (currNode) {
+        if (currIndex === middleIndex) {
+            return currNode
+        }
 
-    while (currIndex < middleIndex) {
-        currIndex += 1
-
+        currIndex++
         currNode = currNode.next
     }
-
-
-    return currNode
 };
