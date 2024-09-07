@@ -15,7 +15,7 @@ var canConstruct = function(ransomNote, magazine) {
         magazineChars[letter] += 1
     }
 
-    // Go through all the characters in ransom note and first check if that letter exists in the magazine hashmap. SECONDLY, check that there's enough of that letter left. Meaning the letter MUST EXIST and HAVE A COUNT GREATER THAN OR EQUAL TO 1 left. If it's at 0, then we've used all of that letter and the "ransomNote" cannot be re-created from "magazine". If at any point, one of these conditions do not pass, then return false.
+    // Go through all the characters in ransom note and check if that letter exists in the hashmap and that the count is greater than 0.
     for (let letter of ransomNote) {
         if (magazineChars[letter]) {
             magazineChars[letter] -= 1
