@@ -10,28 +10,16 @@
  * @return {ListNode}
  */
 var middleNode = function(head) {
-    // Go through the whole linked list once to determine the number of nodes and keep track of this number.
-    let currNode = head
-    let numOfNodes = 0
+    // Use two pointers: "slow" and "fast". They will both start at the "head" node.
+    let slow = head
+    let fast = head
 
-    while (currNode) {
-        numOfNodes++
-        currNode = currNode.next
+    // "slow" will increment ONE node at a time and "fast" will increment TWO nodes at a time - double the speed. Keep going until "fast" reaches the end of the linked list.
+    while (fast && fast.next) {
+        slow = slow.next
+        fast = fast.next.next
     }
 
-    // Then, using the total number of nodes, divide that by 2 and you should have the index of the middle node in the Linked List.
-    let middleIndex = Math.floor(numOfNodes / 2)
-
-    // Using this new "middle" index, reset the current node to the head so you're at the beginning and keep go through linked list again. Again, you'll be keeping track of the current index BUT with one new condition - If the current index === middle index, then that means that this current node, must be the middle node.
-    currNode = head
-    let currIndex = 0
-
-    while (currNode) {
-        if (currIndex === middleIndex) {
-            return currNode
-        }
-
-        currIndex++
-        currNode = currNode.next
-    }
+    // If "fast" has reached the end of the linked list, then "slow" must be the middle node because "fast" was going TWICE as fast as "slow" so mathemtically, it lines up.
+    return slow
 };
