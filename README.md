@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/curlos/LeetCode/tree/master/0001-two-sum) |
+| [0383-ransom-note](https://github.com/curlos/LeetCode/tree/master/0383-ransom-note) |
 ## Math
 |  |
 | ------- |
@@ -24,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/curlos/LeetCode/tree/master/0014-longest-common-prefix) |
+| [0383-ransom-note](https://github.com/curlos/LeetCode/tree/master/0383-ransom-note) |
 | [0412-fizz-buzz](https://github.com/curlos/LeetCode/tree/master/0412-fizz-buzz) |
 ## Trie
 |  |
@@ -61,4 +63,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/curlos/LeetCode/tree/master/0908-middle-of-the-linked-list) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/curlos/LeetCode/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
